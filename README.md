@@ -4,8 +4,8 @@ This project implements a quantitative investment strategy that enhances the Bla
 
 **Core Logic**
 Traditional portfolio optimization is often hypersensitive to return estimates. This tool solves that by:
-1. Anchoring the portfolio to market-cap equilibrium (the "prior").
-2. Updating the portfolio with sentiment-driven views (the "posterior") using a Bayesian framework.
+1. Anchoring the portfolio to market-cap equilibrium.
+2. Updating the portfolio with sentiment-driven views using a Bayesian framework.
 
 **Technical Workflow**
 - Sentiment Analysis: Scrapes live headlines from Finviz and uses a FinBERT Transformer to score sentiment for a 15-stock universe.
